@@ -1,0 +1,21 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Data and temporary files
+data/
+*.log
+*.csv
+*.json
+
+# Model files
+*.pt
+*.bin
+*.ckpt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
