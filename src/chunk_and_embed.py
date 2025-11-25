@@ -9,9 +9,6 @@ os.environ["HF_HUB_DISABLE_SSL_VERIFICATION"] = "1"
 
 from huggingface_hub import hf_hub_download
 
-
-
-
 hf_hub_download(
     repo_id="meta-llama/Llama-2-7b-hf",
     filename="tokenizer_config.json",
